@@ -6,16 +6,6 @@
     column-gap: 3rem;
 }
 
-.link {
-    font-size: 1.25rem;
-    line-height: 1.5rem;
-    font-weight: 700;
-    color: #4D493E;
-}
-
-.linkDestaque{
-    
-}
 
 @media (max-width: 744px) {
     .navegacao {

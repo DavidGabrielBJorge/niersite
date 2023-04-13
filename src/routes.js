@@ -5,7 +5,7 @@ import Menu from "./components/Menu";
 
 //casona url for / vai carregar a página de início, se não for vai ser a sobre
 
-function App() {
+function AppRoutes() {
   return (
     <BrowserRouter>
       <Menu/>
@@ -20,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppRoutes;
