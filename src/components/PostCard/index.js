@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import styles from './Post.module.css'
+import MainButton from 'components/MainButton';
 
 /*
 Componente pata os cards, nele possui a imagem, o titulo e o botão,
@@ -19,8 +20,9 @@ export default function PostCard({ post }){
 
                 <h2 className={styles.titulo}>{post.titulo}</h2>
 
-                <button className={styles.botaoLer}>Ler</button>
+                <MainButton>Ler</MainButton> {/* O botão será o mesmo tanto para os cards quanto para a página 404, para mudar o conteúdo nele deve colocar o children, no caso o "ler"*/}
             </div>
+           
         </Link>
 
     );
