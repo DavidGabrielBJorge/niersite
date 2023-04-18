@@ -18,9 +18,9 @@ function AppRoutes() {
           <Route path="/" element={<BasePage/>}>{/*Rota Pai, é uma rota para a página padrão para as duas páginas que possuem o mesmo elemento, no caso o banner e o main*/}
             <Route path='/' element={<MainPage></MainPage>}/>{/*Rota filha  */}
             <Route path='/aboutus' element={<AboutUs></AboutUs>}/>{/*Rota filha  */}
-            <Route path='/posts/:id' element={<Post></Post>}/>{/*Rota filha  */}
           </Route>
 
+          <Route path='/posts/:id' element={<Post></Post>}/>{/*Rota filha  */}
           <Route path='*' element={<NotFound></NotFound>}/>
       </Routes>
       <Footer></Footer>

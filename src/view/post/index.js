@@ -1,8 +1,10 @@
-import { useParams } from "react-router-dom";
+import { Route, Routes, useParams } from "react-router-dom";
 import posts from "assets/json/posts.json"
 import PostModelo from "components/PostModelo";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import "./post.css"
+import NotFound from "view/notFound";
+import BasePage from "components/BasePage";
 export default function Post(){
     const parametros = useParams();
 
@@ -12,20 +14,28 @@ export default function Post(){
     })
 
     if(!post){
-        return <h1>Post não encontrado</h1>
+        return <NotFound></NotFound>
     }
 
     console.log(post)
 
     return (
-        <PostModelo fotoCapa={`/assets/posts/${post.id}/capa.png`} titulo={post.titulo}>
-            <div className="post-markdown-container">
-                <ReactMarkdown>{/* Vai fazer o tratamento do markdown do texto do JSON */}
-                    {post.texto}
-                </ReactMarkdown>
-            </div>
+        <Routes>
+            <Route path="*" element={<BasePage></BasePage>}>{/* Vai colocar o Banner quando existir um Post*/}
 
-        </PostModelo>
+                <Route index element={
+                          <PostModelo fotoCapa={`/assets/posts/${post.id}/capa.png`} titulo={post.titulo}>
+                          <div className="post-markdown-container">
+                              <ReactMarkdown>{/* Vai fazer o tratamento do markdown do texto do JSON */}
+                                  {post.texto}
+                              </ReactMarkdown>
+                          </div>
+                      </PostModelo>
+                }/>
+            </Route>
+
+        </Routes>
+    
     );
 
     
@@ -41,5 +51,6 @@ OBS: o texto do JSON está em Markdown logo é necessário tratar, primeiro é n
 essa biblioteca:
 
 install react-markdown
+
 
  */
