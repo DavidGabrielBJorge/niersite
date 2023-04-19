@@ -1,3 +1,24 @@
 .paragraph{
     text-align: justify;
 }
+.imageBackground{
+    filter: brightness(70%);
+    width: 1000px;
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+    
+}
+
+@media (max-width: 1300px) {
+
+    .imageBackground{
+        filter: brightness(70%);
+        width: 400px;
+        display: block;
+        margin: 30px auto;
+        
+    }
+    
+
+}
