@@ -6,9 +6,9 @@ export default function Banner(){
     return(
         <div className={styles.banner}>
             <div className={styles.apresentacao}> 
-                <h1 className={styles.titulo}>Ola mundo</h1>
+                <h1 className={styles.titulo}>NieR Automata</h1>
 
-                <p className={styles.paragrafo}>Boas vindas ao projeto pessoal, sou o David e tentarei fazer um site baseado no jogo Nier</p>
+                <p className={styles.paragrafo}>Site criado com o objetivo de resumir informações sobre o jogo Nier Automata.</p>
 
             </div>
 

@@ -1,7 +1,6 @@
 .banner {
     padding: 3rem 7.5rem 6.25rem;
-    background-color: var(--main-color);
-    color: var(--secondary-color);
+    color: var(--main-colo);
     display: grid;
     grid-template-columns: 1fr 1fr;
 }

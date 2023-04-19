@@ -7,6 +7,8 @@ import BasePage from "components/BasePage";
 import Post from "view/post";
 import NotFound from "view/notFound";
 
+import '../node_modules/yorha/dist/yorha.css';
+
 //caso na url for "/"" vai carregar a página de início, se não for vai ser a sobre
 
 function AppRoutes() {
@@ -43,4 +45,6 @@ Na rota "/aboutus", a estrutura a ser renderizada será:
     <AboutUs></AboutUs>
   </BasePage>
 
+  Creditos da pagina: 
+  Imagens: https://nier.fandom.com/wiki/Category:NieR:Automata_Weapons
 */

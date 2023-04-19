@@ -11,9 +11,6 @@
     transition: 0.2s
 }
 
-.buttonMain:hover {
-    border: 3px solid var(--azul-escuro);
-}
 
 .buttonMain.lg{
     padding: 1.5rem 2.75rem;
