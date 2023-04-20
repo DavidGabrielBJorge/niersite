@@ -1,7 +1,6 @@
 .paragraph{
     text-align: justify;
     font-size: 20px;
-    
 }
 .imageBackground{
     filter: brightness(70%);
@@ -25,6 +24,10 @@
     .imageBackground{
         width: 400px;
     }
-    
+
+    .paragraph{
+        font-size: 19px;
+    }
+
 
 }
