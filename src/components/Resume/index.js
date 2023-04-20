@@ -1,3 +1,4 @@
+import Characters from 'components/Characters'
 import styles from './Resume.module.css'
 import city_nier from 'assets/city.jpg'
 
@@ -21,6 +22,8 @@ export default function Resume(){
                 <p className={styles.paragraph}>Além disso o jogo tem múltiplos finais, sendo no total 26, cada um com diferentes requisitos para alcançá-los. Esses finais adicionam camadas adicionais à história e fazem com que o jogador experimentem diferentes conclusões para a trama.</p>
                 </figure>
             </div >
+
+            <Characters></Characters>
             
 
         </div>
