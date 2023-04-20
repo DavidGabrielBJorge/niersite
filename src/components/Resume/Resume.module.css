@@ -1,5 +1,7 @@
 .paragraph{
     text-align: justify;
+    font-size: 20px;
+    
 }
 .imageBackground{
     filter: brightness(70%);
@@ -7,17 +9,21 @@
     display: block;
     margin: 30px auto;
     border-radius: 10px;
-    
+}
+
+.card_text{
+    margin: auto;
+    width: 80%;
+}
+
+.resume_title{
+    border: 1px solid black;
 }
 
 @media (max-width: 1300px) {
 
     .imageBackground{
-        filter: brightness(70%);
         width: 400px;
-        display: block;
-        margin: 30px auto;
-        
     }
     
 
