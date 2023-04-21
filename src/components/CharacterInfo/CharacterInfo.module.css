@@ -17,6 +17,10 @@
     margin: 0 auto;
 }
 
+.image_character{
+    width: 50%;
+    border-width: 5px;
+}
 .character {
     display: flex;
     align-items: flex-start;
@@ -26,7 +30,8 @@
 
 .character_description {
     width: 100%;
-    margin-bottom: -90px;
+    display: flex;
+    flex-direction: row;
 }
 
 .character_separation{
@@ -41,9 +46,10 @@
     }
 
     .image_character{
-        display: flex;
+        display: column;
         width: 100%;
         margin: 2em 0;
+        border-radius: 10px;
     }
 
     .character_description {

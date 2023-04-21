@@ -13,8 +13,9 @@ export default function CharacterInfo(props){
 
     return (
         <div className={styles.character_description}>
-          <h3>{props.title}</h3>
+          
           <ul className={styles.list}>
+          <h3>{props.title}</h3>
             {information.map((info) => (
               <li key={info.label} className={styles.line}>{info.label}: {info.value}</li>
             ))}
