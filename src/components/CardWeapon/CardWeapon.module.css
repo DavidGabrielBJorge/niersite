@@ -1,3 +1,15 @@
+.weapon_title{
+    border: 1px solid black;
+    font-size: 22px;
+}
+
+.card_weapon{
+    margin: auto;
+    width: 80%;
+    margin-bottom: 2%;
+}
+
+
 .posts {
     padding: 0 6vw 3.625rem;
     display: flex;

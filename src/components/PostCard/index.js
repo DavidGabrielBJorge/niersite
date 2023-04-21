@@ -20,7 +20,7 @@ export default function PostCard({ post }){
 
                 <h2 className={styles.titulo}>{post.titulo}</h2>
 
-                <MainButton>Ler</MainButton> {/* O botão será o mesmo tanto para os cards quanto para a página 404, para mudar o conteúdo nele deve colocar o children, no caso o "ler"*/}
+                <MainButton>Saiba mais</MainButton> {/* O botão será o mesmo tanto para os cards quanto para a página 404, para mudar o conteúdo nele deve colocar o children, no caso o "ler"*/}
             </div>
            
         </Link>
