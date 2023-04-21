@@ -22,7 +22,6 @@ export default function Post(){
     return (
         <Routes>
             <Route path="*" element={<BasePage></BasePage>}>{/* Vai colocar o Banner quando existir um Post*/}
-
                 <Route index element={
                           <PostModelo fotoCapa={`/assets/posts/${post.id}/weapon.jpg`} titulo={post.titulo}>
                           <div className="post-markdown-container">

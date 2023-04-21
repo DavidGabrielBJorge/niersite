@@ -15,11 +15,12 @@ export default function CharacterInfo(props){
         <div className={styles.character_description}>
           
           <ul className={styles.list}>
-          <h3>{props.title}</h3>
+          <h3 className={styles.character_name}>{props.title}</h3>
             {information.map((info) => (
               <li key={info.label} className={styles.line}>{info.label}: {info.value}</li>
             ))}
           </ul>
+
           <img className={styles.image_character} src={props.image} alt={props.alt} />
         </div>
       );

@@ -5,10 +5,19 @@
 
 .list{
     list-style-position: inside;
+    margin-left: 5%;
     margin-bottom: 0.5em;
 }
+
+.character_name{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
 .line{
     list-style-type: square;
+    font-size: 1.2rem;
     margin-bottom: 0.5em;
 }
 
@@ -19,7 +28,9 @@
 
 .image_character{
     width: 50%;
-    border-width: 5px;
+    border-radius: 10px;
+    margin-left: 20%;
+    border: 5px solid var(--secondary-color);
 }
 .character {
     display: flex;
@@ -45,12 +56,33 @@
         margin-bottom: 0.5em;
     }
 
+    .list{
+        list-style-position: inside;
+        margin-left: 5%;
+        margin-bottom: 0.5em;
+    }
+    
+    .character_name{
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .line{
+        font-size: 1.1rem;
+    }
+    
+
+    .character_description {
+        flex-direction: column;
+    }
+
     .image_character{
         display: column;
         width: 100%;
         margin: 2em 0;
-        border-radius: 10px;
+        margin-bottom: -10%;
     }
+
 
     .character_description {
         padding: 0;
