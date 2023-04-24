@@ -11,7 +11,7 @@ export default function Characters(){
 
             <div className={styles.card_character}>
                 <h2 className={styles.character_title}>Personagens</h2>
-                <figure>
+                <figure className={styles.figure_character}>
                         <div className={styles.character}>
                             <CharacterInfo title="YoRHa No.2 Type B" class="Batalha" weight="148.8kg" height="1.68m" weapon="Pode carregar 2 armas." resistance="Possui alta resistência à dano físico." attack="Ideal para ataques à longa distância e perto." image={twoB} alt="Personagem 2b olhando para a tela com o seu companheiro atrás aparecendo"></CharacterInfo>
                         </div>

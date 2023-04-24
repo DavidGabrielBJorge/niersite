@@ -12,18 +12,30 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    margin-bottom: 4em;
+    margin-bottom: 1em;
 }
 
 
 
 @media (max-width: 1300px) {
 
-    .characters{
-        flex-direction: column;
-        margin-bottom: 0.5em;
+    .character_separation{
+        margin-top: 6em;
     }
 
+    .figure_character{
+        padding-bottom: 6rem;
+    }
 
+}
 
+@media (max-width: 744px) {
+
+    .character_separation{
+        margin-top: 3em;
+    }
+
+    .figure_character{
+        padding-bottom: 2rem;
+    }
 }
