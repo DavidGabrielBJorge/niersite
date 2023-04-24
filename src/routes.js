@@ -47,4 +47,5 @@ Na rota "/aboutus", a estrutura a ser renderizada será:
 
   Creditos da pagina: 
   Imagens: https://nier.fandom.com/wiki/Category:NieR:Automata_Weapons
-*/
+  background Imagens: https://www.deviantart.com/novariko/art/Nier-Automata-Menu-BG-705350454
+  */

@@ -23,7 +23,7 @@ export default function Post(){
         <Routes>
             <Route path="*" element={<BasePage></BasePage>}>{/* Vai colocar o Banner quando existir um Post*/}
                 <Route index element={
-                          <PostModelo fotoCapa={`/assets/posts/${post.id}/weapon.jpg`} titulo={post.titulo}>
+                          <PostModelo fotoCapa={`/assets/posts/${post.id}/background.png`} titulo={post.titulo}>
                           <div className="post-markdown-container">
                               <ReactMarkdown>{/* Vai fazer o tratamento do markdown do texto do JSON */}
                                   {post.texto}

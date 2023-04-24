@@ -23,7 +23,6 @@
 }
 
 .post-markdown-container a {
-    color: #0493d4;
     text-decoration: underline;
 }
 
@@ -34,6 +33,7 @@
 
 .post-markdown-container ul {
     font-size: 1.5rem;
+    margin-left: 1rem;
 }
 
 .post-markdown-container ul > li {
@@ -45,7 +45,6 @@
 .post-markdown-container blockquote {
     margin-bottom: 1.5rem;
     padding: 1rem;
-    background-color: #eaeaea;
     border-radius: 5px;
 }
 
