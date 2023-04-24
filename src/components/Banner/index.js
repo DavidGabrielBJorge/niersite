@@ -8,7 +8,7 @@ export default function Banner(){
             <div className={styles.apresentacao}> 
                 <h1 className={styles.titulo}>NieR Automata</h1>
 
-                <p className={styles.paragrafo}>Site criado com o objetivo de resumir informações sobre o jogo Nier Automata.</p>
+                <p className={styles.paragrafo}>Informações sobre RPG NieR Automata, contando sua história, personagens e armas.</p>
 
             </div>
 
