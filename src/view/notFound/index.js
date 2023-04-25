@@ -1,6 +1,5 @@
 import MainButton from 'components/MainButton'
 import styles from './notFound.module.css'
-import erro404 from 'assets/erro_404.png'
 import { useNavigate } from 'react-router-dom'//Hook usado para navegar nas rotas da aplicação
 
 export default function NotFound(){
@@ -31,11 +30,6 @@ export default function NotFound(){
 
                 </div>
 
-                <img
-                    className={styles.imagemCachorro}
-                    src={erro404}
-                    alt="Cachorro de óculos e vestido como humano"
-                />
             </div>
             <div className={styles.espacoEmBranco}></div>
         </>

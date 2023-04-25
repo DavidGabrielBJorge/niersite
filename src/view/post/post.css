@@ -59,6 +59,9 @@
 }
 
 @media (max-width: 744px) {
+    .post-markdown-container img {
+        width: 70%;
+    }
     .post-markdown-container h3 {
         font-size: 1.5rem;
         line-height: 2rem;
