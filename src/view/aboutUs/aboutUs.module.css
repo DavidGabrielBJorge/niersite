@@ -6,15 +6,24 @@
 }
 
 
-.paragrafo {
-    text-align: justify;
-    font-size: 1.5rem;
-    line-height: 2.25rem;
-    margin-bottom: 1.5rem;
-}
+
 .paragraph{
     text-align: justify;
     font-size: 20px;
+}
+
+.list{
+    margin-left: 20px;
+}
+
+.line{
+    font-size: 1.2rem;
+    list-style: square;
+
+}
+
+.link{
+    font-weight: bold;
 }
 .imageBackground{
     filter: brightness(70%);
