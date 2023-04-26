@@ -13,7 +13,7 @@ export default function AboutUs(){
         <PostModelo fotoCapa={backgroundCapa} titulo="Informações sobre o site"> {/*Enviando a imagem em assets e o objeto titulo do JSON */}
             
             <div className={styles.card_text}>
-                <h2 className={styles.resume_title}>Créditos</h2>
+                <h2 className={styles.claim_title}>Créditos</h2>
                 <figure>
                     <p className={styles.paragraph}>Esse site foi criado com o objetivo de estudar as tecnologias presentes no React.js, utilizando como base o jogo NieR Automata. Abaixo segue as fontes e autores que auxiliaram na criação desse projeto:</p>
                     <ul className={styles.list}>
@@ -23,6 +23,10 @@ export default function AboutUs(){
                         <li className={styles.line}>Toda a estilização da página foi feita usando uma biblioteca de estilização chamada YoRHa, feita por metakirby5, pode ser encontrada clicando nesse <a className={styles.link}  href="https://www.npmjs.com/package/yorha">link</a>.</li>
                     </ul>
                 </figure>
+            </div>
+
+            <div className={styles.repository}>
+                <a href="https://github.com/DavidGabrielBJorge/niersite">Link para o repositório</a>
             </div>
         </PostModelo>
         
