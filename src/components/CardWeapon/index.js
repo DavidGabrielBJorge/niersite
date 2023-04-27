@@ -1,6 +1,6 @@
 import styles from './CardWeapon.module.css';
-import posts from 'assets/json/posts.json';
-import PostCard from "components/PostCard";
+import weapons from 'assets/json/weapons.json';
+import WeaponCard from "components/WeaponCard";
 
 export default function CardWeapon(){
     return(
@@ -9,10 +9,10 @@ export default function CardWeapon(){
             <h2 className={styles.weapon_title}>Armas</h2>
             </div>
 
-                <ul className={styles.posts}>
-                    {posts.map((post) => (
-                        <li key={post.id}>
-                            <PostCard post={post}/>
+                <ul className={styles.weapons}>
+                    {weapons.map((weapon) => (
+                        <li key={weapon.id}>
+                            <WeaponCard weapon={weapon}/>
                         </li>
                     ))}
                 </ul>

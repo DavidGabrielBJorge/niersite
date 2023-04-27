@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import styles from './Post.module.css'
+import styles from './WeaponCard.module.css'
 import MainButton from 'components/MainButton';
 
 /*
@@ -8,17 +8,17 @@ foi usado o Link em conjunto com o Hook useParams para pegar o id de cada
 card
 */
 
-export default function PostCard({ post }){
+export default function weaponCard({ weapon }){
     return (
-        <Link to={`/posts/${post.id}`}>
-            <div className={styles.post}>
+        <Link to={`/weapons/${weapon.id}`}>
+            <div className={styles.weapon}>
                 <img
                     className={styles.capa}
-                    src={`/assets/posts/${post.id}/weapon.jpg`}
-                    alt="Imagem de capa do post"
+                    src={`/assets/weapons/${weapon.id}/weapon.jpg`}
+                    alt="Imagem de capa do weapon"
                 />
 
-                <h2 className={styles.titulo}>{post.titulo}</h2>
+                <h2 className={styles.titulo}>{weapon.titulo}</h2>
 
                 <MainButton>Saiba mais</MainButton> {/* O botão será o mesmo tanto para os cards quanto para a página 404, para mudar o conteúdo nele deve colocar o children, no caso o "ler"*/}
             </div>

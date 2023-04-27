@@ -1,6 +1,6 @@
 import styles from "./aboutUs.module.css"
 
-import PostModelo from "components/PostModelo";
+import WeaponModelo from "components/WeaponModelo";
 import backgroundCapa from "assets/background.png"
 
 
@@ -10,7 +10,7 @@ export default function AboutUs(){
     return(
 
         
-        <PostModelo fotoCapa={backgroundCapa} titulo="Informações sobre o site"> {/*Enviando a imagem em assets e o objeto titulo do JSON */}
+        <WeaponModelo fotoCapa={backgroundCapa} titulo="Informações sobre o site"> {/*Enviando a imagem em assets e o objeto titulo do JSON */}
             
             <div className={styles.card_text}>
                 <h2 className={styles.claim_title}>Créditos</h2>
@@ -28,11 +28,11 @@ export default function AboutUs(){
             <div className={styles.repository}>
                 <a href="https://github.com/DavidGabrielBJorge/niersite">Link para o repositório</a>
             </div>
-        </PostModelo>
+        </WeaponModelo>
         
     );
 }
-/*Enviando para o PostModelo a imagem e também alguns conteúdos do JSON 
+/*Enviando para o weaponModelo a imagem e também alguns conteúdos do JSON 
 
 Outro modo de fazer a lista seria desse jeito:
 

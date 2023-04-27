@@ -1,35 +1,36 @@
 import { Route, Routes, useParams } from "react-router-dom";
-import posts from "assets/json/posts.json"
-import PostModelo from "components/PostModelo";
+import weapons from "assets/json/weapons.json";
+import WeaponModelo from "components/WeaponModelo";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-import "./post.css"
+import "./weapon.css"
 import NotFound from "view/notFound";
 import BasePage from "components/BasePage";
-export default function Post(){
+
+export default function Weapon(){
     const parametros = useParams();
 
-    //Procurar o id do post
-    const post = posts.find((post)=>{
-        return post.id === Number(parametros.id)
+    //Procurar o id do weapon
+    const weapon = weapons.find((weapon)=>{
+        return weapon.id === Number(parametros.id)
     })
 
-    if(!post){
+    if(!weapon){
         return <NotFound></NotFound>
     }
 
-    console.log(post)
+    console.log(weapon)
 
     return (
         <Routes>
-            <Route path="*" element={<BasePage></BasePage>}>{/* Vai colocar o Banner quando existir um Post*/}
+            <Route path="*" element={<BasePage></BasePage>}>{/* Vai colocar o Banner quando existir um weapon*/}
                 <Route index element={
-                          <PostModelo fotoCapa={`/assets/posts/${post.id}/background.png`} titulo={post.titulo}>
-                          <div className="post-markdown-container">
+                          <WeaponModelo fotoCapa={`/assets/weapons/${weapon.id}/background.png`} titulo={weapon.titulo}>
+                          <div className="weapon-markdown-container">
                               <ReactMarkdown>{/* Vai fazer o tratamento do markdown do texto do JSON */}
-                                  {post.texto}
+                                  {weapon.texto}
                               </ReactMarkdown>
                           </div>
-                      </PostModelo>
+                      </WeaponModelo>
                 }/>
             </Route>
 
@@ -42,7 +43,7 @@ export default function Post(){
 /*
 useParams: Hook usado para retornar uma constante, ele pega o valor na url, por exemplo:
 
-http://localhost:3000/posts/2
+http://localhost:3000/weapons/2
 
 nesse caso vai pegar a string 2, deve usar o "Number" para transformar em número
 

@@ -4,7 +4,7 @@ import MainPage from "./view/mainPage";
 import Menu from "./components/Menu";
 import Footer from "components/Footer";
 import BasePage from "components/BasePage";
-import Post from "view/post";
+import Weapon from "view/weapon";
 import NotFound from "view/notFound";
 
 import '../node_modules/yorha/dist/yorha.css';
@@ -22,7 +22,7 @@ function AppRoutes() {
             <Route path='/aboutus' element={<AboutUs></AboutUs>}/>{/*Rota filha  */}
           </Route>
 
-          <Route path='/posts/:id' element={<Post></Post>}/>{/*Rota filha  */}
+          <Route path='/weapons/:id' element={<Weapon></Weapon>}/>{/*Rota filha  */}
           <Route path='*' element={<NotFound></NotFound>}/>
       </Routes>
       <Footer></Footer>

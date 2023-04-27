@@ -1,4 +1,4 @@
-.post {
+.weapon {
     text-align: center;
     width: 282px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
@@ -7,7 +7,7 @@
     transition: transform .2s;
 }
 
-.post:hover {
+.weapon:hover {
     transform: translate(0, -1rem);
 }
 
@@ -25,7 +25,7 @@
 
 
 @media (max-width: 1100px) {
-    .post {
+    .weapon {
         width: 336px;
     }
     .titulo {

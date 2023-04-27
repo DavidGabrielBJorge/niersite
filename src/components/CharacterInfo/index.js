@@ -52,7 +52,7 @@ information possui duas propriedades: label e value, que são usados para criar 
 cada item da lista.
 
 Dentro do map(), para cada objeto do array information, é criado um elemento <li> com a
-classe styles.line e o texto é composto pelo valor de label e value. A propriedade key é 
+classe styles.line e o texto é comweapono pelo valor de label e value. A propriedade key é 
 usada para identificar unicamente cada elemento da lista, garantindo a eficiência no
 re-renderização quando o array information for atualizado.
 */
