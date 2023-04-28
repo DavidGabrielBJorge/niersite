@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/niersite/static/css/main.941a5c69.css",
-    "main.js": "/niersite/static/js/main.eb6d0744.js",
-    "static/media/2b.gif": "/niersite/static/media/2b.e9f3aa91ac83e0abc51c.gif",
-    "static/media/9s.gif": "/niersite/static/media/9s.7dc0e0a50e6c7e4e8496.gif",
-    "static/media/city.jpg": "/niersite/static/media/city.4f78393f00a19a09e049.jpg",
-    "static/media/background.png": "/niersite/static/media/background.b0cac866284bd3277fe7.png",
-    "static/media/2b_robo.jpeg": "/niersite/static/media/2b_robo.aa9986a5fa2cc5fd1a7e.jpeg",
-    "static/media/nierAutomata_capa.jpg": "/niersite/static/media/nierAutomata_capa.f67c39d2b76364fbc132.jpg",
-    "index.html": "/niersite/index.html",
-    "main.941a5c69.css.map": "/niersite/static/css/main.941a5c69.css.map",
-    "main.eb6d0744.js.map": "/niersite/static/js/main.eb6d0744.js.map"
+    "main.css": "/static/css/main.941a5c69.css",
+    "main.js": "/static/js/main.2beed690.js",
+    "static/media/2b.gif": "/static/media/2b.e9f3aa91ac83e0abc51c.gif",
+    "static/media/9s.gif": "/static/media/9s.7dc0e0a50e6c7e4e8496.gif",
+    "static/media/city.jpg": "/static/media/city.4f78393f00a19a09e049.jpg",
+    "static/media/background.png": "/static/media/background.b0cac866284bd3277fe7.png",
+    "static/media/2b_robo.jpeg": "/static/media/2b_robo.aa9986a5fa2cc5fd1a7e.jpeg",
+    "static/media/nierAutomata_capa.jpg": "/static/media/nierAutomata_capa.f67c39d2b76364fbc132.jpg",
+    "index.html": "/index.html",
+    "main.941a5c69.css.map": "/static/css/main.941a5c69.css.map",
+    "main.2beed690.js.map": "/static/js/main.2beed690.js.map"
   },
   "entrypoints": [
     "static/css/main.941a5c69.css",
-    "static/js/main.eb6d0744.js"
+    "static/js/main.2beed690.js"
   ]
 }
