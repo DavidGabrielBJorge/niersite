@@ -20,7 +20,7 @@ export default function AboutUs(){
                         <li className={styles.line}>Jogo desenvolvido pela PlatinumGames e publicado pela Square Enix.</li>
                         <li className={styles.line}>Imagens e informações das armas: <a className={styles.link} href="https://nier.fandom.com/wiki/NIER_Wiki">NIER Wiki | Fandom</a>.</li>
                         <li className={styles.line}>Imagem do background dos títulos: <a className={styles.link}  href="https://www.deviantart.com/novariko/art/Nier-Automata-Menu-BG-705350454">novariko</a>.</li>
-                        <li className={styles.line}>Toda a estilização da página foi feita usando uma biblioteca de estilização chamada YoRHa, feita por metakirby5, pode ser encontrada clicando nesse <a className={styles.link}  href="https://www.npmjs.com/package/yorha">link</a>.</li>
+                        <li className={styles.line}>Toda a estilização da página foi feita usando uma biblioteca chamada YoRHa, feita por metakirby5, pode ser encontrada clicando nesse <a className={styles.link}  href="https://www.npmjs.com/package/yorha">link</a>.</li>
                     </ul>
                 </figure>
             </div>

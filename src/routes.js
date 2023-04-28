@@ -22,7 +22,7 @@ function AppRoutes() {
             <Route path='/aboutus' element={<AboutUs></AboutUs>}/>{/*Rota filha  */}
           </Route>
 
-          <Route path='/weapons/:id' element={<Weapon></Weapon>}/>{/*Rota filha  */}
+          <Route path='/weapons/:id/*' element={<Weapon></Weapon>}/>{/*Rota filha  */}
           <Route path='*' element={<NotFound></NotFound>}/>
       </Routes>
       <Footer></Footer>

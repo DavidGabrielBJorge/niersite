@@ -18,8 +18,6 @@ export default function Weapon(){
         return <NotFound></NotFound>
     }
 
-    console.log(weapon)
-
     return (
         <Routes>
             <Route path="*" element={<BasePage></BasePage>}>{/* Vai colocar o Banner quando existir um weapon*/}
