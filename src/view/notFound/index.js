@@ -11,7 +11,7 @@ export default function NotFound(){
                 <span className={styles.texto404}>404</span>
 
                 <h1 className={styles.titulo}>
-                    Ops! Página não encontrada.
+                    Página não encontrada!
                 </h1>
 
                 <p className={styles.paragrafo}>
@@ -31,7 +31,6 @@ export default function NotFound(){
                 </div>
 
             </div>
-            <div className={styles.espacoEmBranco}></div>
         </>
     )
 }

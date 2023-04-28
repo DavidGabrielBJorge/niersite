@@ -10,7 +10,7 @@ export default function AboutUs(){
     return(
 
         
-        <WeaponModelo fotoCapa={backgroundCapa} titulo="Informações sobre o site"> {/*Enviando a imagem em assets e o objeto titulo do JSON */}
+        <WeaponModelo fotoCapa={backgroundCapa} titulo="Informações do site"> {/*Enviando a imagem em assets e o objeto titulo do JSON */}
             
             <div className={styles.card_text}>
                 <h2 className={styles.claim_title}>Créditos</h2>

@@ -7,11 +7,7 @@
 :root {
   --main-color: #4D493E;
   --secondary-color: #C8C2AA;
-  --azul-escuro: #041833;
-  --azul-medio: #1875E8;
-  --cor-fonte-principal: #041833;
   --cor-fonte-weapon: #444444;
-  --branco: #FFF;
   --fonte-principal: helvetica, sans-serif;
   --fonte-secundaria: helvetica, sans-serif;
 
@@ -28,10 +24,6 @@
 a, button, input, textarea {
   font: inherit;
   color: inherit;
-}
-
-button {
-  background-color: transparent;
 }
 
 a {

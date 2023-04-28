@@ -20,7 +20,7 @@
 }
 
 .imagens {
-    margin-top: 50px;
+    margin-top: 10%;
     position: relative;
     height: 420px;
 }
@@ -57,7 +57,7 @@
 
     .imagens {
         height: 360px;
-        margin-top: 0px;
+        margin-top: 10%;
     }
 
     .imagens > .mainImage {
