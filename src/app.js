@@ -7,7 +7,7 @@ import BasePage from "components/BasePage";
 import Weapon from "view/weapon";
 import NotFound from "view/notFound";
 
-import './yorha/dist/yorha.min.css';
+import './yorha.min.css';
 
 //caso na url for "/"" vai carregar a página de início, se não for vai ser a sobre
 
