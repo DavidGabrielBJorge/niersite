@@ -14,3 +14,6 @@
 - Imagem do background dos títulos: [novariko](https://www.deviantart.com/novariko/art/Nier-Automata-Menu-BG-705350454)
 - Toda a estilização da página foi feita usando uma biblioteca chamada YoRHa, feita por metakirby5, pode ser encontrada clicando nesse [link](https://www.npmjs.com/package/yorha)
 
+<p align="center">
+Todos os direitos reservados aos devidos autores
+</p>
