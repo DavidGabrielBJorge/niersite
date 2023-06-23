@@ -1,5 +1,5 @@
 # Site sobre Nier Automata
-#### Link do projeto: https://niersite.vercel.app/
+#### Link do projeto: https://niersitedavidgbj.vercel.app/
 ## Objetivo do projeto
 #### O site sobre Nier Automata mostra informações sobre o enredo básico do jogo, personagens e além disso contém descrição de algumas armas. Esse projeto tem como o único objetivo de aprender e aplicar tecnologias presentes na ferramenta React.
 ## Tecnologias utilizadas:
